@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Selenium Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="018a271cd3ce83e6d8aba7ad69c8413cffc8ed5c967678b28e82997e4550eaae.html">Calorie Check From Tim Hortons Menu</a></span>
+                > <span class="truncate-60"><a
+                    href="a29f304aa83a6d446f18ade56cfc9d9ed31f9c8fe7099e80e49222851207aa33.html">Calorie check of a particular item by choosing particular store for pick up and then the item from their takeout menu </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-10-2020 13:08</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Calorie Check From Tim Hortons Menu </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to check calorie of an item
+I need to choose a store and then choose the right item from the menu
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Calorie check of a particular item by choosing particular store for pick up and then the item from their takeout menu
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+                <div class="panel-heading"><span class='error-caption ellipsis'>FAILURE: Assertion error: Calorie matches expe...</span></div>
+                <div class="panel-body">
+                    <a href="pagesource531131478652548895.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_d5cfe55c53bbb69c0a809d8ae731fbf4f96aa35f7c7b77091180163c4aa8e325.png" title="Given I want to go to Tim Hortons homepage" width="960"/>
+                <img src="scaled_f6a62eb22279a151375500ea9f707c78c5de158a0a9b9eb3d9a464013ef8196d.png" title="Open tim" width="960"/>
+                <img src="scaled_963eda281204e7c19ac19b90e8e0611ee68432f32f5b382cef8ded2498eef793.png" title="When I select the Language and Region" width="960"/>
+                <img src="scaled_d606ce87d72633fdd6bd39f9ecec93a37d358e918456ee66ba8935c9bb456b77.png" title="When I select the Language and Region" width="960"/>
+                <img src="963eda281204e7c19ac19b90e8e0611ee68432f32f5b382cef8ded2498eef793.png" title="Select region" width="960"/>
+                <img src="scaled_f124a24f0a6d73c741afc8e1e5e78586407b3bb696ac8704f42ecd473216a95a.png" title="Select region" width="960"/>
+                <img src="scaled_6088af6a858f64eaa40666c99ec3188815ea975fb1962a5c5038d08563f7475a.png" title="Then I click on Order" width="960"/>
+                <img src="scaled_2c925ee038d3b6af81fc0eeb70162ff2d29683656d0e37cb0890811956b21edb.png" title="Then I click on Order" width="960"/>
+                <img src="6088af6a858f64eaa40666c99ec3188815ea975fb1962a5c5038d08563f7475a.png" title="Click order" width="960"/>
+                <img src="scaled_f2e211c1c7d5222ba4f562978064682e35fd105c81f6b25ede021de9fc06cbbd.png" title="Click order" width="960"/>
+                <img src="scaled_22fe74a62770df492c7b60fedf6d52f8f8d7418564ffe0b08edc4865deadd820.png" title="Then I choose how i like to get my order" width="960"/>
+                <img src="22fe74a62770df492c7b60fedf6d52f8f8d7418564ffe0b08edc4865deadd820.png" title="Get order by" width="960"/>
+                <img src="scaled_fcadfbe0b216e82caf1bcede173bac9a12d7f5c374e58c21a0113e79b6e31d8b.png" title="Then I locate the store manually" width="960"/>
+                <img src="scaled_162dd82ea440aa21c4ee289872b13aa1c3c941e84235a11f5313f7a1723b4717.png" title="Your address" width="960"/>
+                <img src="22fe74a62770df492c7b60fedf6d52f8f8d7418564ffe0b08edc4865deadd820.png" title="Then I do Order here" width="960"/>
+                <img src="scaled_c9f0db69f198f1756b43e130a952203a41585512dea126da14e1984becd351f2.png" title="Then I do Order here" width="960"/>
+                <img src="22fe74a62770df492c7b60fedf6d52f8f8d7418564ffe0b08edc4865deadd820.png" title="Order here" width="960"/>
+                <img src="scaled_81ceaa7a1c1876e71619d0652c1c4f824b1477f053bbb44d94c327eba81f384a.png" title="Order here" width="960"/>
+                <img src="scaled_36930e30703f607807bf7f121a328a927d4a5c11e02fb6a1d87ccb0070e4700b.png" title="Then I prefer takeout option" width="960"/>
+                <img src="scaled_461e953d14054d55ff471c1d66f8bd061e4a222bf065eac361c2182393d512ae.png" title="Take your order" width="960"/>
+                <img src="scaled_fba7311aceb17d4639d8df5525a1bc340cc1cae830562f3ecdd858b6d3dbb396.png" title="Then I like to check Bagel" width="960"/>
+                <img src="scaled_b16aafc4138b7aeb55db49a56f96350c52a7b0340f56761c8464e023bbc2da97.png" title="Then I like to check Bagel" width="960"/>
+                <img src="fba7311aceb17d4639d8df5525a1bc340cc1cae830562f3ecdd858b6d3dbb396.png" title="Choose bagel" width="960"/>
+                <img src="scaled_af350031600a1dd1e0c2208a56954a8e4ae8bba664af9f4b98de0e8a9caa34ae.png" title="Choose bagel" width="960"/>
+                <img src="b16aafc4138b7aeb55db49a56f96350c52a7b0340f56761c8464e023bbc2da97.png" title="And I find calorie of Everything Bagel" width="960"/>
+                <img src="b16aafc4138b7aeb55db49a56f96350c52a7b0340f56761c8464e023bbc2da97.png" title="Choose everything bagel: <span class='failing-color'>FAILURE</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

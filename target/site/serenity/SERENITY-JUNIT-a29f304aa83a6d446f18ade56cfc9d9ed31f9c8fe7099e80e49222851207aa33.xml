@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Calorie check from Tim Hortons menu" skipped="0" tests="1" time="34.39" timestamp="2020-10-04T13:08:59.701218900-04:00[America/Toronto]"><testcase name="Calorie check of a particular item by choosing particular store for pick up and then the item from their takeout menu"><failure message="Calorie matches expected:&lt;2[0]7 Cals&gt; but was:&lt;2[9]7 Cals&gt;" type="java.lang.AssertionError">Calorie matches expected:&lt;2[0]7 Cals&gt; but was:&lt;2[9]7 Cals&gt;</failure><system-err>Calorie matches expected:&lt;2[0]7 Cals&gt; but was:&lt;2[9]7 Cals&gt;&#13;
+timhortons.pages.calorieMatchPage.checkEverythingBagelCalorie(calorieMatchPage.java:61)&#13;
+timhortons.actions.calorieMatchAction.chooseEverythingBagel(calorieMatchAction.java:49)&#13;
+timhortons.steps.calorieMatchStep.everythingBagel(calorieMatchStep.java:62)&#13;
+✽.I find calorie of Everything Bagel(features/calorieMatch.feature:14)&#13;
+</system-err></testcase></testsuite>
